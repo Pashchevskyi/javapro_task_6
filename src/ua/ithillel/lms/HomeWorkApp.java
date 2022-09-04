@@ -6,7 +6,7 @@ public class HomeWorkApp {
         checkSumSign();
         printColor();
         compareNumbers();
-        System.out.println("From 10 to 20: " + isFrom10To20(-5, 5));
+        System.out.println("Sum is from 10 to 20: " + isSumFrom10To20(-5, 5));
         checkValueForPositivity(-2);
         System.out.println("Number is negative: " + isNegative(2));
         repeatString("Слава Україні!", 2);
@@ -50,7 +50,7 @@ public class HomeWorkApp {
         }
     }
 
-    private static boolean isFrom10To20(int a, int b) {
+    private static boolean isSumFrom10To20(int a, int b) {
         int sum = a + b;
         return (sum >= 10) && (sum <= 20);
     }
