@@ -20,7 +20,8 @@ public class HomeWorkApp {
     }
 
     private static void checkSumSign() {
-        int a = -2, b = -4;
+        int a = -2;
+        int b = -4;
         if ((a + b) >= 0) {
             System.out.println("Сума додатна");
         } else {
@@ -42,7 +43,8 @@ public class HomeWorkApp {
     }
 
     private static void compareNumbers() {
-        int a = -5, b = -4;
+        int a = -5;
+        int b = -4;
         if (a >= b) {
             System.out.println("a >= b");
         } else {
